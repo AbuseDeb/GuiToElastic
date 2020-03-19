@@ -53,7 +53,7 @@ QByteArray RequestForElastic::MakeRequest(eRequestTypeBody Requestype, const QSt
 							"\"terms\": {"
 								"\"field\": \"autocomplete\","
 								"\"order\" : {	\"_count\": \"desc\" },"
-								"\"size\" : 50,"
+								"\"size\" : 10,"
 								"\"include\" : \"%1.*\""
 							"}"
 						"}"

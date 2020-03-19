@@ -15,6 +15,7 @@ class QtGuiApplication1 : public QMainWindow
 
 public:
 	QtGuiApplication1(QWidget *parent = Q_NULLPTR);
+	~QtGuiApplication1();
 
 
 private slots:	
@@ -22,6 +23,7 @@ private slots:
 	void myButtonClicked();
 
 	void lineEditCompliterChanged();
+	void ListWidgetClicked(QListWidgetItem *item);
 
 
 private:
